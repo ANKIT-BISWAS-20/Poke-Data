@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéData</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div id="nav">
+    <div id="logo">
+        <h1>BISWAS INDUSTRIES</h1>
+    </div>
+    <div id="main_head">
+        <h1>PokéData</h1>
+    </div>
+    <div style="margin-right: 40px;">
+        <button id="contactbtn" onclick="contact()">CONTACT US</button>
+    </div>
+</div>
+<body id="body"> 
+    <div id="box1">
+        <div style="padding-top: 20px;">
+            <img src="pokemon.png" alt="" height="150px" width="400px">
+        </div>
+        <div id="search" style="margin-top: 30px;">
+            <input id="sb" type="text" placeholder="Search using Name or Id">
+            <input id="bs" type="button" value="Search" onclick="search_pokemon()">
+        </div>
+        <div id="image1">
+            <img id="i1" src="" alt="" height="300px" width="300px">
+            <img id="i2" src="" alt="" height="300px" width="300px">
+        </div>
+        <div id="data">  
+            <div id="box2">
+                <div id="parent">Pokemon Id.</div><div class="child" id="pid"></div>
+            </div>
+            <div id="box2">
+                <div id="parent">Name</div><div class="child" id="name"></div>
+            </div>
+            <div id="box2">
+                <div id="parent">Exp</div><div class="child" id="exp"></div>
+            </div>
+            <div id="box2">
+                <div id="parent">Type</div><div class="child" id="type"></div>
+            </div>
+            <div id="box2">
+                <div id="parent">Height</div><div class="child" id="height"></div>
+            </div>
+            <div id="box2">
+                <div id="parent">Weight</div><div class="child" id="weight"></div>
+            </div>
+            <div id="box2">
+                <div id="parent">Abilities</div><div class="child" id="abilities"></div>
+            </div>
+            <div id="box2">
+                <div id="parent">Hp</div><div class="child" id="hp"></div>
+            </div>
+            <div id="box2">
+                <div id="parent">Attack</div><div class="child" id="attack"></div>
+            </div>
+            <div id="box2">
+                <div id="parent">Defence</div><div class="child" id="defence"></div>
+            </div>
+            <div id="box2">
+                <div id="parent">Special Attack</div><div class="child" id="spatt"></div>
+            </div>
+            <div id="box2">
+                <div id="parent">Special Defence</div><div class="child" id="spdef"></div>
+            </div>
+            <div id="box2">
+                <div id="parent">Speed</div><div class="child" id="speed"></div>
+            </div>
+            <div id="box2">
+                <div id="parent1">Moves</div><div class="child1" id="moves"></div>
+            </div>
+            <div id="bn">
+                <div><button id="bs1" onclick="searchback()">Back</button></div>
+                <div><button id="bs1" onclick="searchnext()">Next</button></div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <h2 id="h2">Follow Me</h2>
+        <div id="logos">
+            <i class="fa-brands fa-facebook fa-2xl" style="color: #ffe4c4;" onclick="gt(1)"></i>
+            <i class="fa-brands fa-instagram fa-2xl" style="color: #ffe4c4;" onclick="gt(2)"></i>
+            <i class="fa-brands fa-youtube fa-2xl" style="color: #ffe4c4;" onclick="gt(3)"></i>
+            <i class="fa-brands fa-linkedin fa-2xl" style="color: #ffe4c4;" onclick="gt(4)"></i>
+            <i class="fa-brands fa-github fa-2xl" style="color: #ffe4c4;" onclick="gt(5)"></i>
+            
+        </div>
+        <div style="background-color:rgb(87, 2, 87); height:20px;">
+            <p style="margin-top: 45px;">Copyright © 2023 All Rights Reserved</p>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/ae4da4ffc0.js" crossorigin="anonymous"></script>  
+</body>
+</html>
