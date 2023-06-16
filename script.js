@@ -87,3 +87,27 @@ getpokemon(1);
 function contact(){
     window.open("https://ankit-biswas-20.github.io/BISWAS-INDUSTRIES","_blank");
 }
+
+function gt(num){
+    switch(num){
+        case 1:
+            window.open("https://www.facebook.com/profile.php?id=100079956308306&mibextid=ZbWKwL","_blank");
+            break;
+        case 2:
+            window.open("https://instagram.com/ankit_b15w45?igshid=ZGUzMzM3NWJiOQ==","_blank");
+            break;
+        case 3:
+            window.open("https://www.youtube.com/@factx9641","_blank");
+            break;
+        case 4:
+            window.open("https://www.linkedin.com/in/ankit-biswas-a03899257","_blank");
+            break;
+        case 5:
+            window.open("https://github.com/ANKIT-BISWAS-20","_blank");
+            break;
+        case 6:
+            window.open("https://ankit-biswas-20.github.io/BISWAS-INDUSTRIES","_blank");
+            break;
+
+    }
+}
